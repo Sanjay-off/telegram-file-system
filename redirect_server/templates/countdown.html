@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verification Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+
+    <!-- Countdown Script -->
+    <script src="/static/script.js" defer></script>
+
+    <script>
+        // Pass token to JS for redirect
+        window.VERIFY_TOKEN = "{{ token }}";
+    </script>
+</head>
+
+<body>
+
+<div class="container countdown-box">
+
+    <h2 class="title">🔐 Verification Required</h2>
+
+    <p class="subtitle">
+        Please wait for the countdown to finish.<br>
+        You will be redirected automatically.
+    </p>
+
+    <div class="countdown-circle">
+        <span id="countdown-seconds">10</span>
+    </div>
+
+    <p class="small-note">Don't close this page.</p>
+
+</div>
+
+</body>
+</html>

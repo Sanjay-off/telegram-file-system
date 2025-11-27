@@ -1,0 +1,19 @@
+aiogram==3.3.0
+fastapi==0.109.0
+uvicorn==0.27.0.post1
+
+pymongo==4.6.1
+python-dotenv==1.0.1
+cryptography==41.0.7
+jinja2==3.1.3
+
+aiohttp==3.9.1
+
+# For serving HTML templates in FastAPI
+python-multipart==0.0.6
+
+# For date/time & timezone correctness (if needed)
+pytz==2024.1
+
+# Optional but recommended for safety
+requests==2.31.0
