@@ -40,3 +40,5 @@ def setup_admin_handlers() -> Router:
     admin_router.include_router(grant_verify_router)
 
     return admin_router
+
+from .admin_main import setup_admin_handlers
